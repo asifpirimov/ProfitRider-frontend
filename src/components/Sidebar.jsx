@@ -51,7 +51,7 @@ const Sidebar = () => {
     ];
 
     return (
-        <aside className="flex flex-col w-64 h-screen bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 fixed left-0 top-0 z-50 overflow-hidden">
+        <aside className="flex flex-col w-64 h-full bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 overflow-hidden">
             {/* Header & Nav - Takes available space */}
             <div className="flex-1 overflow-y-auto p-6">
                 <div className="flex items-center gap-3 mb-2">
